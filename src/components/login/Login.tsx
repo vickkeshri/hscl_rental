@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Images } from "../../assets/index";
 import "./login.css";
 
@@ -42,7 +43,9 @@ class Login extends React.Component {
                 />
               </div>
               <div className="input-container">
-                <button className="login-button">Login</button>
+                <Link to="home">
+                  <button className="login-button">Login</button>
+                </Link>
               </div>
               <p className="forgot-password">Forgot Password?</p>
             </form>

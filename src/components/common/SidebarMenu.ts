@@ -2,7 +2,6 @@ import HomeIcon from "@material-ui/icons/Home";
 export const SidebarMenu = [
   {
     title: "Dashboard",
-    // icon: <HomeIcon />,
     link: "/home",
   },
   {

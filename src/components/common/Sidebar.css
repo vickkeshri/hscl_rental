@@ -1,5 +1,36 @@
 .sidebar-container {
-    height: 100%;
-    width: 250px;
-    background-color: #2f4050;
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 20%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #2f4050;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-content {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar-content {
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.sidebar-content:hover {
+  background-color: #365e81;
+}
+
+.content {
+  width: 80%;
+  padding: 15px;
 }
